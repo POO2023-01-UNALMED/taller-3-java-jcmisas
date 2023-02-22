@@ -14,7 +14,7 @@ public class Control {
 
     public void setCanal(int canal){
 
-        this.tv.canal=canal;
+        this.tv.setCanal(canal);
     }
 
     public void setTV(TV tv){
@@ -58,10 +58,6 @@ public class Control {
 
         this.tv.volumenDown();
     }
-
-
-
-
     
     private TV tv;
 }
